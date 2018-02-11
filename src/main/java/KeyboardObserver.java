@@ -20,11 +20,8 @@ public class KeyboardObserver extends Thread {
 
         frame.setUndecorated(false);
         frame.setSize((Room.game.getWidth() * 10) + 17, (Room.game.getHeight() * 10) + 40);
-        //frame.setExtendedState(JFrame.MAXIMIZED_BOTH);
         frame.setLayout(new GridBagLayout());
 
-        //frame.setOpacity(0.0f);
-        //frame.setVisible(true);
 
         frame.addFocusListener(new FocusListener() {
             @Override
